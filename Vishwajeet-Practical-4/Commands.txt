@@ -1,0 +1,104 @@
+\documentclass [11 pt] {article}
+\usepackage{graphicx}
+\usepackage[a4paper]{geometry}
+\usepackage{microtype}
+\usepackage{url}
+
+\title {\textbf{\Huge{\textbf{Study of FDMA TDMA CDMA}}}}
+\author{
+ \IEEEauthorblockA{\textit{B.Tech}}\\
+ \IEEEauthorblockA{\textit{Silver Oak University}}\\
+ \\
+ \IEEEauthorblockA{Supervisor: Prof. Jigar Shekhat}\\
+MUTHE VISHWAJEET SANTOSH}
+
+\date{May 11, 2024}
+
+\begin{document}
+
+
+\section{Purpose of the Project}
+Purpose of this project is to do a comprehensive study on various
+multiple access technologies viz. FDMA, CDMA, TDMA.
+
+
+% \section{Expected Outcome}
+% \begin{enumerate}
+%     \item \textbf{Website redirection:} Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.  Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+%     \item \textbf{Malware distribution:} Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+   
+% \end{enumerate}
+
+% \section{Background Study}
+% Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+
+% \begin{figure}[h]
+%   \centering
+%   \includegraphics[scale=0.5]{dummy-img.png}
+%   \caption{Use of DNS}
+%   \label{}
+% \end{figure}
+% \vspace{8pt}
+
+% \section{Working Steps}
+
+% \begin{enumerate}
+  
+%   \item \textbf{Preparation and Configuring}\\
+% Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+% \vspace{8pt}
+
+%   \item \textbf{ARP poisoning}\\
+% Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+% \end{enumerate}
+\begin{enumerate}
+    \item\textbf{FDMA:-}FDMA is used for voice and data transmission. During this method the general channel bandwidth is shared by multiple users, therefore a variety of users can transmit their data simultaneously. No code words and synchronization are required in FDMA. Power efficiency is reduced using FDMA, it’s an old and proven system used for analog signals. In this article, we will discuss Frequency Division Multiple Access (FDMA) Techniques.
+    \begin{figure}[h]
+      \centering
+      \includegraphics[scale=0.3]{FDMA1.png}
+      \caption{FDMA}
+      \label{}
+      \end{figure}
+      \vspace{8pt}
+
+    \textbf{Advantages of FDMA:}\\\
+    \vspace{2pt}\hspace{5mm}1. FDMA uses simple hardware resources and is easy to set up.\\\
+    \vspace{2pt}\hspace{5mm}2. It efficiently handles smaller groups of users.\\\
+    \vspace{2pt}\hspace{5mm}3. The system isn’t overly complicated.\\\
+    \vspace{2pt}\hspace{5mm}4. All stations can transmit continuously without waiting their turn.
+    
+    \textbf{Disadvantages of FDMA:}\\\
+    \vspace{2pt}\hspace{5mm}1. FDMA works only with analog signals.\\\
+    \vspace{2pt}\hspace{5mm}2. It lacks flexibility, so existing traffic patterns must change gradually.\\\
+    \vspace{2pt}\hspace{5mm}3. Transponders need extensive bandwidth.\\\
+    \vspace{2pt}\hspace{5mm}4. It doesn’t support high traffic capacity.
+% \end{enumerate}
+% TDMA ----------------------------------------
+    
+    \item\textbf{TDMA:-}It is an intricate innovation since it requires precise synchronization between the transmitter and the collector. TDMA is utilized in advanced portable radio frameworks. The individual portable stations consistently dole out a recurrence for the selective utilization of a period stretch.  
+
+        \begin{figure}[h]
+          \centering
+          \includegraphics[scale=0.5]{tdmapng.png}
+          \caption{TDMA}
+          \label{}
+        \end{figure}
+          \vspace{8pt}
+
+     \textbf{Advantages of TDMA:}\\\
+    \vspace{2pt}\hspace{5mm}1. TDMA can undoubtedly adjust to the transmission of information just as voice correspondence.\\\
+    \vspace{2pt}\hspace{5mm}2. It can convey 64 kbps to 120 Mbps of information rates.\\\
+    \vspace{2pt}\hspace{5mm}3. No impedance from the synchronous transmission.\\\
+    \vspace{2pt}\hspace{5mm}4.TDMA is the savvy innovation to change a simple framework over to computerize.
+    
+    \textbf{Disadvantages of TDMA:}\\\
+    \vspace{2pt}\hspace{5mm}1. t is exposed to multipath twisting. A sign coming from a pinnacle and get to handset may come from any of a few headings\\\
+    \vspace{2pt}\hspace{5mm}2. Organization and range arranging is concentrated.\\\
+    \vspace{2pt}\hspace{5mm}3.Recurrence/opening assignment is to be intricate in TDMA.\\\
+    \vspace{2pt}\hspace{5mm}4. Adjustment was vital for high information rates.
+
+
+\end{enumerate}
+
+
+\end{document}
